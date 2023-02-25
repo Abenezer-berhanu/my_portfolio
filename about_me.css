@@ -1,0 +1,39 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          list-style-type: none;
+          text-decoration: none;
+          object-fit: cover;
+}
+#about_me{
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 2rem;
+}
+.first_page_container{
+          border: 1px solid black;
+          display: flex;
+          justify-content: space-between;
+          
+          
+} 
+.first_page_container div{
+          margin: 1rem;
+          width: 50%;
+}
+.first_about_discription{
+          display: flex;
+          align-items: center;
+}
+.first_about_image{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.first_about_image img{
+          width: 50%;
+          height: 50%;
+          border-radius: 150%;
+}
+
