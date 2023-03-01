@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="about_me.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar">
+        <ul id="nav-ul">
+          <li><a href="./index.html">MAIN PAGE</a></li>
+          <li><a href="#hoobies">HOOBIES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="humberger_menu">
+          <span id="humberger-menu"><i class="fa-solid fa-bars"></i></span>
+          <span id="humberger-close"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+      </nav>
+      <h1 id="who_i_am">who i am</h1>
+      <section class="first_section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          atque facilis ab aliquid ut tenetur consequuntur. Dolorum, sit ipsa.
+          Non iste vitae quod et, odit veritatis officiis incidunt optio neque?
+          Tempore expedita excepturi, eos nostrum quam ut iure voluptatum
+          delectus modi velit laborum fugit unde cum in quaerat repellendus
+          magni. Unde repellendus quod fuga ex incidunt laudantium optio hic.
+          Reprehenderit?
+        </p>
+        <img src="./abenu.jpg" alt="image" />
+      </section>
+      <h1 id="hoobies-title">HOOBIES</h1>
+      <section class="hoobies" id="hoobies">
+        <div id="developer">
+          <div id="developer-image">
+            <img src="./developer.jpg" alt="" />
+          </div>
+          <div id="developer-text">
+            <h2>web-developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              explicabo omnis consequuntur ipsam inventore doloremque odio
+              facilis possimus, culpa amet soluta quidem repudiandae nulla eius
+              maxime eveniet obcaecati ratione veritatis!
+            </p>
+          </div>
+        </div>
+
+        <div id="youtuber">
+          <div id="youtuber-image">
+            <img src="./youtuber.jpg" alt="" />
+          </div>
+          <div id="youtuber-text">
+            <h2>youtuber</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              explicabo omnis consequuntur ipsam inventore doloremque odio
+              facilis possimus, culpa amet soluta quidem repudiandae nulla eius
+              maxime eveniet obcaecati ratione veritatis!
+            </p>
+          </div>
+        </div>
+        <div id="singer">
+          <div id="singer-image">
+            <img src="./singer.jpg" alt="" />
+          </div>
+          <div id="singer-text">
+            <h2>singer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              explicabo omnis consequuntur ipsam inventore doloremque odio
+              facilis possimus, culpa amet soluta quidem repudiandae nulla eius
+              maxime eveniet obcaecati ratione veritatis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <!-- contact page -->
+        <h1
+          style="
+            text-align: center;
+            margin: 1rem 0;
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          "
+        >
+          contact
+        </h1>
+        <section class="footer" id="footer">
+          <p>
+            put your recommendation down below, i will try my best to modify it
+            as soon as possible
+          </p>
+
+          <form
+            id="input-form"
+            action="https://formsubmit.co/abenezerberhanu40@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="Name" placeholder="Full Name" required />
+            <input type="email" name="email" id="email" placeholder="Email..." required/>
+            <input type="hidden" name="_name" value="https://www.youtube.com/@abulotube1992">
+            <select name="continent" id="country_selection"></select>
+            <textarea
+              name="Massage"
+              placeholder="message...."
+              required
+              id="text_area"
+            ></textarea>
+            <button type="submit">send</button>
+          </form>
+          <div class="footer-links">
+            <ul>
+              <li>
+                <a href="https://web.telegram.org/z/" target="_blank"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/accounts/login/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/login/" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/home" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://tiktok.com/@abulotube" target="_blank"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="about_me.js"></script>
+    </div>
+  </body>
+</html>
